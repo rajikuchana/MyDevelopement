@@ -6,11 +6,16 @@ public class Cars {
 		
 		Cars car= new Cars();
 		car.benzCar();
+		car.bmwCar();
 
 	}
 	
 	public void benzCar(){
 		System.out.println("This is Benz Car");
+	}
+	
+	public void bmwCar(){
+		System.out.println("This is BMW Car");
 	}
 
 }
